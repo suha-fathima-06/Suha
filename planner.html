@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Study Planner</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Study Planner</h1>
+<a href="index.html">⬅ Back Home</a>
+</header>
+
+<h2>Create Study Plan</h2>
+
+<input id="subject" placeholder="Subject">
+
+<input id="date" type="date">
+
+<input id="hours" placeholder="Daily Study Hours">
+
+<button onclick="generatePlan()">Generate Plan</button>
+
+<h3>Timeline</h3>
+
+<ul id="timeline"></ul>
+
+<h2>Weak Subject Detection</h2>
+
+<input id="subjectName" placeholder="Subject Name">
+
+<input id="marks" type="number" placeholder="Marks">
+
+<button onclick="detectWeakSubject()">Analyze</button>
+
+<p id="weakResult"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
